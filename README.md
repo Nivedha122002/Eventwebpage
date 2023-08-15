@@ -19,7 +19,9 @@ This is the same as the opening tag, except that it includes a forward slash bef
 Not all elements follow the pattern of an opening tag, content, and a closing tag. Some elements consist of a single tag, which is typically used to insert/embed something in the document.Such elements are called void elements. For example, the  element embeds an image file onto a page:
 
 # HTML
-Firefox icon
+<img
+  src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png"
+  alt="Firefox icon" />
 
 The doctype. When HTML was young (1991-1992), doctypes were meant to act as links to a set of rules that the HTML page had to follow to be considered good HTML.
 
